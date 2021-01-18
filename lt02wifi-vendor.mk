@@ -1,4 +1,4 @@
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,13 +16,13 @@
 #
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/lt02wifi/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/samsung/lt02wifi/proprietary/lib/egl/libEGL_MRVL.so:system/lib/egl/libEGL_MRVL.so \
     vendor/samsung/lt02wifi/proprietary/lib/egl/libGLESv1_CM_MRVL.so:system/lib/egl/libGLESv1_CM_MRVL.so \
     vendor/samsung/lt02wifi/proprietary/lib/egl/libGLESv2_MRVL.so:system/lib/egl/libGLESv2_MRVL.so \
     vendor/samsung/lt02wifi/proprietary/lib/hw/gralloc.mrvl.so:system/lib/hw/gralloc.mrvl.so \
     vendor/samsung/lt02wifi/proprietary/lib/hw/hwcomposer.mrvl.so:system/lib/hw/hwcomposer.mrvl.so \
     vendor/samsung/lt02wifi/proprietary/lib/libGAL.so:system/lib/libGAL.so \
+    vendor/samsung/lt02wifi/proprietary/lib/libGLESv2SC.so:system/lib/libGLESv2SC.so \
     vendor/samsung/lt02wifi/proprietary/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
     vendor/samsung/lt02wifi/proprietary/lib/libgcu.so:system/lib/libgcu.so \
     vendor/samsung/lt02wifi/proprietary/lib/libgputex.so:system/lib/libgputex.so \
